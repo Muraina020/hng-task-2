@@ -1,0 +1,93 @@
+.movies{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8rem ;
+}
+.featured{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.featured>span{
+    color: red;
+    font-size: 15px;
+    margin-top: 2rem;
+}
+.movies-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 92%;
+    gap: 2rem;
+   
+}
+.movie-card{
+    width: 250px;
+}
+.movie-date{
+    font-size: 14px;
+    color: gray;
+}
+.apple-con{
+    display: flex;
+    justify-content: space-between;
+}
+.cardTitle{
+    font-size: 22px;
+}
+
+/* footer styling */
+.footer{
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    /* margin-left: 20rem; */
+}
+.socio{
+    display: flex;
+    gap: 40px;
+}
+.policy{
+    display: flex;
+    gap: 30px;
+}
+.policy>span{
+    font-weight: 600;
+
+}
+.footer-text{
+    color: gray;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 600px){
+    .movies{
+        margin-left: 20px ;
+    }
+    .movies-container{
+     display: grid;
+     grid-template-columns: 1fr;
+     width: 100%;
+    }
+    .movie-card{
+        width: 100%;
+        max-width: 80%;
+    }
+    .movieImg{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+        max-width: 100%;
+    }
+    .policy{
+        display: flex;
+        gap: 15px;
+    }
+    .policy>span{
+        font-size: 16px;
+    }
+}

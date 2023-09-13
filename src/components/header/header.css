@@ -1,0 +1,129 @@
+.header-section{
+    
+    background-image: url(../../assets/Poster.png);
+    /* width: 100%;
+    max-width: 1024px; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 12rem;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    margin: 10px 10px;
+    color: white;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+}
+.tv{
+    width: 30px;
+    height: 30px;
+}
+.search-icon{
+    position: relative;
+}
+.input-icon{
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    font-size: 20px;
+}
+.input-text{
+    width: 350px;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid white;
+    padding: 4px 10px;
+    background: transparent;
+    font-size: 18px;
+    color: white;
+}
+.menu{
+    display: flex;
+    gap: 10px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+.heade-title{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-left: 10rem;
+    color: white;
+    margin-top: 50px;
+}
+.heade-title>h2{
+   font-size: 35px;
+}
+.imd-con{
+    display: flex;
+    gap: 3px;
+}
+.imd-con>span{
+   font-size: 13px;
+}
+.apple-container{
+    display: flex;
+    gap: 8px;
+}
+.apple-con{
+    display: flex;
+    gap: 3px;
+}
+.apple-con>span{
+   font-size: 13px;
+}
+.imd{
+    margin-right: 3px;
+    font-size: 12px;
+}
+.apple{
+    margin-left: 3px;
+}
+.heade-title>p{
+    font-size: 12px;
+}
+.btn{
+    height: 30px;
+    width: 150px;
+}
+
+@media screen and (max-width: 600px){
+    .header-section{
+        width: 100%;
+        max-width: 100%;
+       
+        
+    }
+    .sub-section{
+     /* width: 100%; */
+     /* max-width: 70%; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 5px 0px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.container>input{
+    display: none;
+}
+.heade-title{
+    width: 90%;
+    margin-left: 10px;
+}
+}
+
+
