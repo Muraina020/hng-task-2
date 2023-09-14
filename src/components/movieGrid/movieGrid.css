@@ -1,0 +1,39 @@
+
+.movie-grid {
+    margin: 2rem 8rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+   }
+  
+  .posterImg {
+    width: 100%; 
+    height: auto; 
+  }
+  .apple-containerr{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 23px;
+  }
+  
+  
+  [data-testid="movie-title"] {
+    font-weight: bold; 
+  }
+  
+  
+  [data-testid="movie-release-date"] {
+    color: #888;
+  }
+
+  
+@media screen and (max-width: 600px){
+    .movie-grid{
+       margin-left: 30px;
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       gap: 30px;
+  }
+ 
+}
+  

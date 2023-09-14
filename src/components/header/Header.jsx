@@ -2,10 +2,11 @@ import React from 'react'
 import "./header.css"
 import tv from "../../assets/tv.png"
 import Menu from "../../assets/Menu.png"
-import {BiSearch} from "react-icons/bi"
+// import {BiSearch} from "react-icons/bi"
 import imd from "../../assets/imd.png"
 import apple from "../../assets/apple.png"
 import Button from "../../assets/Button.png"
+import MovieSearch from '../movieSearch/MovieSearch'
 
 
 const Header = () => {
@@ -17,12 +18,14 @@ const Header = () => {
           <img src={tv} className='tv'/>
           <span className='mvbox'>MovieBox</span>
         </div>
-        <div className='search-icon'>
+        <MovieSearch/>
+        {/* <div className='search-icon'>
           <form action="" className='input-form'>
+           
           <input type="text" placeholder="what do you want to watch? " className='input-text' />
           </form>
           <BiSearch className='input-icon'/>
-          </div>
+          </div> */}
         <div className='menu'>
             <span className='text'>sign in</span>
             <img src={Menu} className='icon'/>

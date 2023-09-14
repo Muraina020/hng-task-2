@@ -1,19 +1,19 @@
 import React from 'react'
 import "./home.css"
 import Header from '../../components/header/Header'
-import Card from '../../components/cards/Card'
+import Footer from '../../components/footer/Footer'
+import MovieGrid from '../../components/movieGrid/MovieGrid'
+// import MovieSearch from '../../components/movieSearch/MovieSearch'
 
 
 const Home = () => {
   return (
     <div className='section'>
-    <div className='header'>
-    <Header/>
-     </div>
-     <div className='movie'>
-     <Card/>
-     </div>
-    </div>
+   <Header/>
+   {/* <MovieSearch/> */}
+   <MovieGrid/>
+   <Footer/>
+ </div>
   )
 }
 
